@@ -1,12 +1,12 @@
 # Site settings
 title: Chas Parr
-email: you@example.com
+email: cxp2265@rit.edu
 description: > # this means to ignore newlines until "baseurl:"
-  A simple, whitespace, helvetica based portfolio theme.
+  Portfolio site for Chas Parr
 baseurl:  # the subpath of your site, e.g. /blog/
 url:  # the base hostname & protocol for your site
 twitter_username: twitter_username
-github_username:  github_username
+github_username:  chasparr
 
 # Build settings
 markdown: kramdown
