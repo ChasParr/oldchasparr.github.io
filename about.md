@@ -17,8 +17,6 @@ I am a Game Design and Development student at Rochester Institute of Technology 
 	<a href="mailto:cxp2265@gmail.com"><i class="fa fa-envelope-square"></i></a>
 	<a href="https://github.com/chasparr" target="_blank"><i class="fa fa-github-square"></i></a>
 	<a href="https://www.linkedin.com/profile/view?id=ADEAABYYvNIBTrx_VrOzR83ah0QhQgx4T5Gocf4" target="_blank"><i class="fa fa-linkedin-square"></i></a>
-	#<a href="http://tumblr.com" target="_blank"><i class="fa fa-tumblr-square"></i></a>
-	#<a href="https://twitter.com" target="_blank"><i class="fa fa-twitter-square"></i></a>
 </span>
 
 <div class="col three caption">
