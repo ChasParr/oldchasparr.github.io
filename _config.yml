@@ -22,11 +22,3 @@ collections:
   portfolio:
     output: true
     permalink: /portfolio/:path/
-<<<<<<< HEAD
-=======
-  poetry:
-    output: false
-    permalink: /poetry/:path/
-
-
->>>>>>> origin/master
