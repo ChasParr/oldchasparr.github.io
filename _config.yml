@@ -1,5 +1,5 @@
 # Site settings
-title: *folio
+title: Chas Parr
 email: you@example.com
 description: > # this means to ignore newlines until "baseurl:"
   A simple, whitespace, helvetica based portfolio theme.
@@ -22,8 +22,8 @@ collections:
   portfolio:
     output: true
     permalink: /portfolio/:path/
-  poetry:
-    output: true
-    permalink: /poetry/:path/
+  //poetry:
+    //output: true
+    //permalink: /poetry/:path/
 
 
