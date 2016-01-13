@@ -2,7 +2,7 @@
 layout: post
 title: Delwiche Blog
 description: Academic website for Algae researcher
-img: /img/12.jpg
+img: /img/12.png
 ---
 
 I designed and implemented a Wordpress blog for Dr. Charles Delwiche to showcase the activities of his laboratory.  
