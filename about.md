@@ -22,6 +22,6 @@ I am a Game Design and Development student at Rochester Institute of Technology 
 </span>
 
 <div class="col three caption">
-	I am also on DevianArt and where else?
+	I am also on DeviantArt and where else?
 </div>
 
