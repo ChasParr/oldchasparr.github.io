@@ -10,4 +10,4 @@ Every project has a beautiful feature shocase page. It's easy to include images,
 
 
 
-<canvas data-processing-sources="/resources/Asteroids.pde"></canvas>
+<canvas data-processing-sources="/resources/Asteroids.pde" width="1000" height="700"></canvas>
