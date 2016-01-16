@@ -371,7 +371,7 @@ class PowerUp{
 
 class Ship{
   
-  PShape body;
+  PVector[] body = new PVector[4];
   PVector acceleration, velocity, position;
   float dist;
   int ammo; // determines ammo type
@@ -385,15 +385,11 @@ class Ship{
     acceleration = new PVector(0, 0);
     velocity = new PVector(0, 0);
     position = new PVector(width / 2, height / 2);
-    body = createShape();
-    body.beginShape();
-      body.stroke(0);
-      body.fill(255);
-      body.vertex(10,0);
-      body.vertex(-10,-10);
-      body.vertex(-5, 0);
-      body.vertex(-10, 10);
-    body.endShape(CLOSE);
+    body = new PVector[4];
+    body[0] = new PVector(10, 0);
+    body[1] = new PVector(-10,-10);
+    body[2] = new PVector(-5, 0);
+    body[3] = new PVector(-10, 10);
   }
   
   void update(){
@@ -443,18 +439,30 @@ class Ship{
   }
   
   void display(){
+    stroke(0);
+    fill(255);
     if (invinc == 0 || (invinc >= 10 && invinc < 20) || (invinc >= 30 && invinc < 40) || (invinc >= 50 && invinc < 60) || (invinc >= 70 && invinc < 80)){
       pushMatrix();
         translate(position.x, position.y);
         rotate(atan2(mouseY - position.y, mouseX - position.x));
-        shape(body);
+        beginShape();
+        for(int i = 0; i <= body.length - 1; i++){
+          PVector v = body[i];
+          vertex(v.x, v.y);
+        }
+        endShape();
       popMatrix();
     }
     pushMatrix();
     translate(20, 20);
     rotate(-HALF_PI);
       for (int i = 0; i < lives; i++){
-        shape(body);
+        beginShape();
+        for(int j = 0; j <= body.length - 1; j++){
+          PVector v = body[j];
+          vertex(v.x, v.y);
+        }
+        endShape();
         translate(0, 20);
       }
     popMatrix();
