@@ -15,7 +15,7 @@ int gameState;                  // determines the state the game is in
 
 void setup(){
   ellipseMode(CENTER);
-  size(1200, 900);
+  size(1000, 700);
   gameState = 0;
   player = new Ship();
   hiScore = 0;
@@ -205,9 +205,9 @@ class Asteroid{
       stroke(0);
       fill(255);
       if (tier == 1){
-        ellipse(0, 0, 100, 100);
+        ellipse(0, 0, 70, 70);
       } else {
-        ellipse(0, 0, 50, 50);
+        ellipse(0, 0, 35, 35);
       }
     popMatrix();
   }
