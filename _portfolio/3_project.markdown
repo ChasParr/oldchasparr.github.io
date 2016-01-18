@@ -3,22 +3,12 @@ layout: post
 title: Animated fish swimming
 description: Lifelike motion of a swimming fish
 img:
-redirect: https://unsplash.com
 ---
 
-For a project in my 3D animation class I chose to do a fish.
-
+For my 3D Animation class for our final we did a group project with a number of models and animations. The animation I was responsible for was a swimming fish.
 
 <div class="img_row">
-	<img class="col one" src="{{ site.baseurl }}/img/1.jpg" alt="" title="example image"/>
-	<img class="col one" src="{{ site.baseurl }}/img/2.jpg" alt="" title="example image"/>
-	<img class="col one" src="{{ site.baseurl }}/img/3.jpg" alt="" title="example image"/>
-</div>
-<div class="col three caption">
-	Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="img_row">
-	<img class="col three" src="{{ site.baseurl }}/img/5.jpg" alt="" title="example image"/>
+	<img class="col three" src="{{ site.baseurl }}/img/fishAnim2.gif" alt="" title="example image"/>
 </div>
 <div class="col three caption">
 	This image can also have a caption. It's like magic. 
