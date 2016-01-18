@@ -2,7 +2,7 @@
 layout: post
 title: Asteroids
 description: Inspired by the retro game
-img: /img/asteroids.jpg
+img: /img/Asteroids.jpg
 custom_js: processing
 ---
 
