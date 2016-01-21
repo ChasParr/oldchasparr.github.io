@@ -10,7 +10,7 @@ During the summer of 2015, I designed and implemented [Evolving Algae](http://bl
 The theme I used was [WPstart](https://wordpress.org/themes/wpstart/).
 
 <div class="img_row">
-	<img class="col one" src="{{ site.baseurl }}/img/screen_blogs.png" alt="" title="screenshot of blog page"/>
+	<img class="col one" src="{{ site.baseurl }}/img/screen_blog.png" alt="" title="screenshot of blog page"/>
 	<img class="col one" src="{{ site.baseurl }}/img/screen_map.png" alt="" title="screenshot of lab location"/>
 	<img class="col one" src="{{ site.baseurl }}/img/screen_projects.png" alt="" title="screenshot of lab projects"/>
 </div>
