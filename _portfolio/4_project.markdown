@@ -6,4 +6,4 @@ img:
 ---
 
 
-<img width=500px src="{{ site.baseurl }}/img/Chess Screenshot.png">
+<img src="{{ site.baseurl }}/img/Chess Screenshot.png" width="500">
