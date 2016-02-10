@@ -7,7 +7,7 @@ img:
 
 I developed this magic system in high school. It could be used as the basis for a story or game. <a href="/img/Glyphs.pdf"><img src="/img/glyphs thumb.png"></a>
 
-<img src="{{ site.baseurl }}/img/glyphs.png" alt="" title="many glyphs"/>
+<img src="{{ site.baseurl }}/img/glyphs.png" width="500" alt="" title="many glyphs"/>
 
 <div class="col three caption">
 	Many of the glyphs described in the document are shown here.
