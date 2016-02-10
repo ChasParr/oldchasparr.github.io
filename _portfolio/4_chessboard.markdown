@@ -1,6 +1,6 @@
 ---
 layout: post
-title:Chessboard
+title: Chessboard
 description: 3D model in marble
 img: 
 ---
