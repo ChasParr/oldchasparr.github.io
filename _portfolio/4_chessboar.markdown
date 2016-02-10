@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Chessboard
-description: another without an image
+description: 3D model like marble
 img: 
 ---
 
