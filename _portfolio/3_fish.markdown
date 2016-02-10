@@ -5,7 +5,7 @@ description: Lifelike motion of a swimming fish
 img:
 ---
 
-For my 3D Animation class for our final we did a group project with a number of models and animations. The animation I was responsible for was a swimming fish.
+For my 3D Animation class final we did a group project with a number of models and animations. I was responsible for this  swimming fish animation.
 
 <img class="col three" src="{{ site.baseurl }}/img/fishAnim2.gif" alt="" title="fish image"/>
 
