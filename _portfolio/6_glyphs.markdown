@@ -2,7 +2,7 @@
 layout: post
 title: Glyphs
 description: A magic system
-img: /img/glyphs.png
+img:
 ---
 
 I developed this magic system in high school. It could be used as the basis for a story or game. <a href="/img/Glyphs.pdf"><img src="/img/glyphs thumb.png"></a>
