@@ -15,10 +15,10 @@ I am a Game Design and Development student at Rochester Institute of Technology 
 <br/>
 <span class="contacticon center">
 	<a href="mailto:cxp2265@gmail.com" target="_blank"><i class="fa fa-envelope-square"></i></a>
-	<a href="skype:chaskorl?call" target="_blank"><i class="fa fa-skype-square"></i></a>
+	<a href="skype:chaskorl?call" target="_blank"><i class="fa fa-skype"></i></a>
 	<a href="https://github.com/chasparr" target="_blank"><i class="fa fa-github-square"></i></a>
 	<a href="https://www.linkedin.com/profile/view?id=ADEAABYYvNIBTrx_VrOzR83ah0QhQgx4T5Gocf4" target="_blank"><i class="fa fa-linkedin-square"></i></a>
-	<a href="http://steelosprei.deviantart.com/" target_blank"><i class="fa fa-deviantart-square"></i></a>
+	<a href="http://steelosprei.deviantart.com/" target_blank"><i class="fa fa-deviantart"></i></a>
 </span>
 
 <div class="col three caption">
