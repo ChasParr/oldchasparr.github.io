@@ -14,12 +14,14 @@ I am a Game Design and Development student at Rochester Institute of Technology 
 <hr/>
 <br/>
 <span class="contacticon center">
-	<a href="mailto:cxp2265@gmail.com"><i class="fa fa-envelope-square"></i></a>
+	<a href="mailto:cxp2265@gmail.com" target="_blank"><i class="fa fa-envelope-square"></i></a>
+	<a href="skype:chaskorl?call" target="_blank"><i class="fa fa-skype"></i></a>
 	<a href="https://github.com/chasparr" target="_blank"><i class="fa fa-github-square"></i></a>
+	<a href="http://steelosprei.deviantart.com/" target="_blank"><i class="fa fa-deviantart"></i></a>
 	<a href="https://www.linkedin.com/profile/view?id=ADEAABYYvNIBTrx_VrOzR83ah0QhQgx4T5Gocf4" target="_blank"><i class="fa fa-linkedin-square"></i></a>
 </span>
 
 <div class="col three caption">
-	I am also on DeviantArt and where else?
+	Please contact me via Gmail or Google Hangout.
 </div>
 
