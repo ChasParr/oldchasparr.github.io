@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="icon" type="image/png" href="media/icon.png">
+	<link rel="stylesheet" type="text/css" href="css/portfolio.css">
+	<title>Chas Parr Portfolio - The Opportune King</title>
+	<script src="js/portfolio.js"></script>
+</head>
+
+<body>
+	<nav>
+		<!--CP logo-->
+		<a  class="logo" href="index.html"><img src="media/CPlogo.png" alt="Chas Parr"></a>
+		
+		<!--left side of menu-->
+		<ul class="left">
+			<!--dropdown menu for mobile--> 
+			<li>
+				<a class="projects no-desk" href="javascript:void(0)"  onclick="dropDown('projectsMenu')">Projects</a>
+				<div id="projectsMenu" class="dropdown no-desk">
+					<a href="current.html">Current Projects</a>
+					<a href="games.html">Games</a>
+					<a href="webdesign.html">Web Design</a>
+					<a href="3d.html">3D Modeling</a>
+				</div>
+			</li>
+			
+			<!--hidden in mobile-->
+			<li><a class="no-mobile" href="current.html">Current Projects</a></li>
+			<li><a class="no-mobile" href="games.html">Games</a></li>
+			<li><a class="no-mobile" href="webdesign.html">Web Design</a></li>
+			<li><a class="no-mobile" href="3d.html">3D Modeling</a></li>
+		</ul>
+		
+		<!--right side of menu-->
+		<ul class="right">
+			<li><a href="notes.html">Notes</a></li>
+			<li><a href="contact.html">Contact</a></li>
+		</ul>
+	</nav>
+	<header>
+		<h1>The Opportune King</h1>
+	</header>
+	<main>
+		<section>
+			<div class="content">
+				<div class="row">
+					<div class="col-4">
+						<img src="media/opportuneKing.jpg" alt="The Opportune King">
+					</div>
+					<div class="col-4">
+						<img src="media/opportuneking2.jpg" alt="game pieces">
+					</div>
+					<div class="col-4">
+						<img src="media/opportuneking3.jpg" alt="playtesting">
+					</div>
+				</div>
+			</div>
+		</section>
+		<section>
+			<div class="content">
+				<p>
+					<strong>Group size:</strong> 5<br>
+					<strong>Dates:</strong> Spring 2016 - Ongoing<br>
+					<strong>Role:</strong> core mechanics, card development, balance, playtesting<br>
+					<strong>Summary:</strong> A tabletop card game where players compete for influence in an 
+					attempt to place themselves on the throne. Each player is assigned a secret role at the 
+					beginning of the game that describes their goals, which they can work towards by playing cards.
+				</p>
+			</div>
+		</section>
+	</main>
+</body>
+</html>

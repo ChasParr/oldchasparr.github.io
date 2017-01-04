@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="icon" type="image/png" href="media/icon.png">
+	<link rel="stylesheet" type="text/css" href="css/portfolio.css">
+	<title>Chas Parr Portfolio - Contact</title>
+	<script src="js/portfolio.js"></script>
+</head>
+<body>
+	<nav>
+		<!--CP logo-->
+		<a  class="logo" href="index.html"><img src="media/CPlogo.png" alt="Chas Parr"></a>
+		
+		<!--left side of menu-->
+		<ul class="left">
+			<!--dropdown menu for mobile--> 
+			<li>
+				<a class="projects no-desk" href="javascript:void(0)"  onclick="dropDown('projectsMenu')">Projects</a>
+				<div id="projectsMenu" class="dropdown no-desk">
+					<a href="current.html">Current Projects</a>
+					<a href="games.html">Games</a>
+					<a href="webdesign.html">Web Design</a>
+					<a href="3d.html">3D Modeling</a>
+				</div>
+			</li>
+			
+			<!--hidden in mobile-->
+			<li><a class="no-mobile" href="current.html">Current Projects</a></li>
+			<li><a class="no-mobile" href="games.html">Games</a></li>
+			<li><a class="no-mobile" href="webdesign.html">Web Design</a></li>
+			<li><a class="no-mobile" href="3d.html">3D Modeling</a></li>
+		</ul>
+		
+		<!--right side of menu-->
+		<ul class="right">
+			<li><a href="notes.html">Notes</a></li>
+			<li><a class="active" href="contact.html">Contact</a></li>
+		</ul>
+	</nav>
+	<header>
+		<h2>Chas Parr</h2>
+	</header>
+	<main>
+		<section>
+			<div class="content">
+				<div class="col-4">
+					<img src="media/me.jpg" alt="me">
+				</div>
+				<div class="col-6">
+					<h3>About Me:</h3>
+					<p>
+					I am a Game Design and Development student at Rochester Institute of Technology in Rochester, NY.
+					I have been making games since middle school, where all I had to work with was a TI graphing calculator.
+					I have improved a lot since then, but the same excitement still motivates me, whether programming a game
+					or laying out a website in html and css.
+					</p>
+				</div>
+				<div class="col-2" id="contacts">
+					<ul>
+						<li><img src="media/number.png" alt="phone number"></li>
+						<li><img src="media/address.png" alt="email address"></li>
+						<li>
+							<a href="https://www.linkedin.com/in/chasparr" class="col-4"><img src="media/linkedin.png" alt="Linkedin"></a>
+							<a href="https://github.com/ChasParr" class="col-4"><img src="media/github.png" alt="GitHub"></a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</section>
+	</main>
+</body>
+</html>

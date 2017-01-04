@@ -1,0 +1,299 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	font-family: ubuntu, Geneva, sans-serif;
+}
+
+@font-face{
+	font-family: angelina;
+	src: url(../fonts/angelina.ttf);
+}
+@font-face{
+	font-family: ubuntu;
+	font-weight: 300;
+	src: url(../fonts/ubuntu-light.ttf);
+}
+@font-face{
+	font-family: ubuntu;
+	src: url(../fonts/ubuntu-regular.ttf);
+}
+@font-face{
+	font-family: ubuntu;
+	font-weight: 500;
+	src: url(../fonts/ubuntu-medium.ttf);
+}
+@font-face{
+	font-family: ubuntu;
+	font-weight: 700;
+	src: url(../fonts/ubuntu-bold.ttf);
+}
+@font-face{
+	font-family: ubuntu;
+	font-style: italic;
+	font-weight: 300;
+	src: url(../fonts/ubuntu-lightitalic.ttf);
+}
+@font-face{
+	font-family: ubuntu;
+	font-style: italic;
+	src: url(../fonts/ubuntu-italic.ttf);
+}
+@font-face{
+	font-family: ubuntu;
+	font-style: italic;
+	font-weight: 500;
+	src: url(../fonts/ubuntu-mediumitalic.ttf);
+}
+@font-face{
+	font-family: ubuntu;
+	font-style: italic;
+	font-weight: 700;
+	src: url(../fonts/ubuntu-bolditalic.ttf);
+}
+
+/*nav bar*/
+nav{
+	width: 100%;
+	position: fixed;
+	background-color: white;
+	opacity: .8;
+	box-shadow: 0px 1px 0px grey;
+	transition: opacity .8s;
+}
+
+nav:hover{
+	opacity: 1.0;
+}
+
+nav a.logo{
+	height: 50px;
+	width: 50px;
+	margin: 10px 0px 0px 10px;
+	float: left;
+}
+
+nav ul{
+	list-style: none outside;
+	line-height: 2rem;
+}
+
+nav ul.left{
+	float: left
+}
+
+nav ul.right{
+	float: right;
+	margin-right: 10px;
+}
+	
+
+nav li{
+	display: inline-block;
+	
+}
+
+nav li a{
+	display: inline-block;
+	color: #707070;
+	background-color: white;
+	text-decoration: none;
+	font-size: 1.2rem;
+	font-family: ubuntu;
+	padding: 9px;
+	margin: 4px -1px;
+	box-shadow: 0px 0px 1px grey;
+}
+
+nav li a:hover {
+	color:black;
+	box-shadow: 0px 0px 2px black;
+}
+
+.active{
+	background-color: #f0f0f0;
+	color: #606060;
+}
+
+#contacts{
+	box-shadow: 0px 0px 1px grey;
+}
+
+.dropdown{
+	display: none;
+	position: absolute;
+	background-color: white;
+	box-shadow: 0px 1px 1px grey;
+	padding: 1px;
+}
+
+.show{
+	display: block;
+}
+
+nav .dropdown a{
+	display: block;
+	text-align: left;
+	margin: 1px 0px 0px;
+}
+
+/*page header*/
+header{
+	width: 100%;
+	text-align: center;
+}
+
+header h1{
+	padding: 80px 0px 30px 0px;
+	font: normal normal 4rem ubuntu;
+}
+
+header h2{
+	padding: 80px 0px 20px 0px;
+	font: normal normal 3rem ubuntu;
+}
+
+/*front page header*/
+header .front{
+	height: 800px;
+	background: grey url("../media/LightRay.jpg") no-repeat center;
+	background-size: cover;
+}
+
+header .front h1{
+	padding: 230px 0px 50px 0px;
+	color: #4f5a5c;
+	font: normal 700 8rem angelina;
+	line-height: 12rem;
+}
+
+header .front h2{
+	padding-top: 25px;
+	color: #deeae0;
+	font: italic 300 2.4rem ubuntu;
+}
+
+/*main content*/
+main{
+	width: 100%;
+	background-color: white;
+	text-align: center;
+}
+
+main .content{
+	max-width: 1300px;
+	margin: auto;
+	padding: 20px 0px 20px 0px;
+	box-shadow: 0px -1px 0px #376590;
+}
+
+main h2{
+	padding: 20px 0px 25px 0px;
+	color: #4f5a5c;
+	font: normal 500 4rem ubuntu;
+}
+
+main h3{
+	text-align: left;
+	padding: 0px 0px 10px 10px;
+	font: normal 500 2rem ubuntu;
+}
+
+main p{
+	text-align: left;
+	padding: 0px 0px 10px 10px;
+	font: normal normal 1.3rem ubuntu;
+	color: #374549;
+	line-height: 2;
+}
+
+main ul{
+	text-align: left;
+	list-style-type: none;
+	font: normal normal 1.3rem ubuntu;
+	line-height: 4rem;
+	color: #374549;
+}
+
+main li img{
+	box-shadow: none;
+	max-width:100%;
+	width: auto;
+}
+
+main strong{
+	font: normal 500 1.1em ubuntu;
+	color: black;
+}
+
+main img{
+	width: 100%;
+	height: auto;
+	box-shadow: 0px 0px 1px grey;
+}
+
+main a.more{
+	text-align: center;
+	font-size: 3rem;
+	font-family: ubuntu;
+	text-decoration: none;
+	display: inline-block;
+	color: dimgrey;
+	background-color: white;
+	padding: 15px 20px;
+}
+
+ main a.more:hover {
+	color:black;
+}
+
+.row::after{
+	content: "";
+	clear: both;
+	display: block;
+}
+
+/*set all columns to full width in mobile*/
+[class*="col-"]{
+	float: left;
+	width: 100%;
+	padding: 5px;
+}
+
+.no-mobile{
+	display: none;
+}
+
+/*desktop*/
+@media only screen and (min-width: 768px){
+	.col-1 {width: 8.33%;}
+	.col-2 {width: 16.66%;}
+	.col-3 {width: 25%;}
+	.col-4 {width: 33.33%;}
+	.col-5 {width: 41.66%;}
+	.col-6 {width: 50%;}
+	.col-7 {width: 58.33%;}
+	.col-8 {width: 66.66%;}
+	.col-9 {width: 75%;}
+	.col-10 {width: 83.33%;}
+	.col-11 {width: 91.66%;}
+	.col-12 {width: 100%;}
+
+	/*hide elements at desktop size*/
+	.no-desk{
+		display: none;
+	}
+	
+	/*unhide elements*/
+	.no-mobile{
+		display: inline-block;
+	}
+	
+	header h1{
+		font-size: 5rem;
+	}
+	
+	header .front h1{
+		font-size: 10rem;
+	}
+}

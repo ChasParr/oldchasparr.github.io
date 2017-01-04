@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="icon" type="image/png" href="media/icon.png">
+	<link rel="stylesheet" type="text/css" href="css/portfolio.css">
+	<title>Chas Parr Portfolio - Swimming Fish</title>
+	<script src="js/portfolio.js"></script>
+</head>
+
+<body>
+	<nav>
+		<!--CP logo-->
+		<a  class="logo" href="index.html"><img src="media/CPlogo.png" alt="Chas Parr"></a>
+		
+		<!--left side of menu-->
+		<ul class="left">
+			<!--dropdown menu for mobile--> 
+			<li>
+				<a class="projects no-desk" href="javascript:void(0)"  onclick="dropDown('projectsMenu')">Projects</a>
+				<div id="projectsMenu" class="dropdown no-desk">
+					<a href="current.html">Current Projects</a>
+					<a href="games.html">Games</a>
+					<a href="webdesign.html">Web Design</a>
+					<a href="3d.html">3D Modeling</a>
+				</div>
+			</li>
+			
+			<!--hidden in mobile-->
+			<li><a class="no-mobile" href="current.html">Current Projects</a></li>
+			<li><a class="no-mobile" href="games.html">Games</a></li>
+			<li><a class="no-mobile" href="webdesign.html">Web Design</a></li>
+			<li><a class="no-mobile" href="3d.html">3D Modeling</a></li>
+		</ul>
+		
+		<!--right side of menu-->
+		<ul class="right">
+			<li><a href="notes.html">Notes</a></li>
+			<li><a href="contact.html">Contact</a></li>
+		</ul>
+	</nav>
+	<header>
+		<h1>Swimming Fish</h1>
+	</header>
+	<main>
+		<section>
+			<div class="content">
+				<img src="media/fish.gif" alt="animated fish">
+			</div>
+		</section>
+		<section>
+			<div class="content">
+				<p>
+					<strong>Group size:</strong> 4 (2 for this asset)<br>
+					<strong>Dates:</strong> Fall 2015<br>
+					<strong>Role:</strong> Maya, modeling, animation, UV unwrapping<br>
+					<strong>Summary:</strong> This fish was an asset made for a 4 person project, but was modeled and 
+					animated entirely by me. The texture was the only part done by another group member. I was 
+					also responsible for UV unwrapping every model we made.
+				</p>
+			</div>
+		</section>
+	</main>
+</body>
+</html>

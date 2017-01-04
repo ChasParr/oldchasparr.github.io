@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="icon" type="image/png" href="media/icon.png">
+	<link rel="stylesheet" type="text/css" href="css/portfolio.css">
+	<title>Chas Parr Portfolio - Notes</title>
+	<script src="js/portfolio.js"></script>
+</head>
+<body>
+	<nav>
+		<!--CP logo-->
+		<a  class="logo" href="index.html"><img src="media/CPlogo.png" alt="Chas Parr"></a>
+		
+		<!--left side of menu-->
+		<ul class="left">
+			<!--dropdown menu for mobile--> 
+			<li>
+				<a class="projects no-desk" href="javascript:void(0)"  onclick="dropDown('projectsMenu')">Projects</a>
+				<div id="projectsMenu" class="dropdown no-desk">
+					<a href="current.html">Current Projects</a>
+					<a href="games.html">Games</a>
+					<a href="webdesign.html">Web Design</a>
+					<a href="3d.html">3D Modeling</a>
+				</div>
+			</li>
+			
+			<!--hidden in mobile-->
+			<li><a class="no-mobile" href="current.html">Current Projects</a></li>
+			<li><a class="no-mobile" href="games.html">Games</a></li>
+			<li><a class="no-mobile" href="webdesign.html">Web Design</a></li>
+			<li><a class="no-mobile" href="3d.html">3D Modeling</a></li>
+		</ul>
+		
+		<!--right side of menu-->
+		<ul class="right">
+			<li><a class="active" href="notes.html">Notes</a></li>
+			<li><a href="contact.html">Contact</a></li>
+		</ul>
+	</nav>
+	<header>
+		<h2>Notes</h2>
+	</header>
+	<main>
+		<section>
+			<div class="content">
+				<p>
+				<strong>Citations:</strong> I got the icons for Linkedin and GitHub from Wikimedia. I learned how to do the javascript, 
+				among other techniques, from w3schools<br>
+				<strong>Above and Beyond:</strong> I used javascript to make the dropdown menu in the mobile sized version of the site.<br>
+				<strong>Problems:</strong> I ended up turning this in several days late since I started so late. I had intended to 
+				start several days earlier, but homework from another class took much longer than I had prepared for, which delayed me. I 
+				wasn't able to add everything I had wanted to, but I hope to in the future.<br>
+				<strong>Improvements:</strong> I would like to add a hover effect on the images on the front page that shows the title 
+				of the project they link to. For the games and animations I would like to add videos or gifs to better show them off. 
+				I also want to further flesh out the individual project pages, perhaps with information about the process or cool points.<br>
+				<strong>Changes made:</strong> Fixed up some validation issues.
+				</p>
+			</div>
+		</section>
+	</main>
+</body>
+</html>

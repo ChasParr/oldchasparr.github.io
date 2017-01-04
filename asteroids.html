@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="icon" type="image/png" href="media/icon.png">
+	<link rel="stylesheet" type="text/css" href="css/portfolio.css">
+	<title>Chas Parr Portfolio - Asteroids</title>
+	<script src="js/portfolio.js"></script>
+</head>
+
+<body>
+	<nav>
+		<!--CP logo-->
+		<a  class="logo" href="index.html"><img src="media/CPlogo.png" alt="Chas Parr"></a>
+		
+		<!--left side of menu-->
+		<ul class="left">
+			<!--dropdown menu for mobile--> 
+			<li>
+				<a class="projects no-desk" href="javascript:void(0)"  onclick="dropDown('projectsMenu')">Projects</a>
+				<div id="projectsMenu" class="dropdown no-desk">
+					<a href="current.html">Current Projects</a>
+					<a href="games.html">Games</a>
+					<a href="webdesign.html">Web Design</a>
+					<a href="3d.html">3D Modeling</a>
+				</div>
+			</li>
+			
+			<!--hidden in mobile-->
+			<li><a class="no-mobile" href="current.html">Current Projects</a></li>
+			<li><a class="no-mobile" href="games.html">Games</a></li>
+			<li><a class="no-mobile" href="webdesign.html">Web Design</a></li>
+			<li><a class="no-mobile" href="3d.html">3D Modeling</a></li>
+		</ul>
+		
+		<!--right side of menu-->
+		<ul class="right">
+			<li><a href="notes.html">Notes</a></li>
+			<li><a href="contact.html">Contact</a></li>
+		</ul>
+	</nav>
+	<header>
+		<h1>Asteroids</h1>
+	</header>
+	<main>
+		<section>
+			<div class="content">
+				<div class="row">
+					<div class="col-4">
+						<figure>
+							<img src="media/doubleammo.png" alt="double ammo type">
+							<figcaption>double shot</figcaption>
+						</figure>
+					</div>
+					<div class="col-4">
+						<figure>
+							<img src="media/triammo.png" alt="triple ammo type">
+							<figcaption>triple shot</figcaption>
+						</figure>
+					</div>
+					<div class="col-4">
+						<figure>
+							<img src="media/laserammo.png" alt="laser ammo type">
+							<figcaption>laser</figcaption>
+						</figure>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section>
+			<div class="content">
+				<p>
+					<strong>Group size:</strong> Solo<br>
+					<strong>Dates:</strong> Fall 2015<br>
+					<strong>Role:</strong> physics engine, game mechanics<br>
+					<strong>Summary:</strong> A variation of the retro game Asteroids made using Processing. 
+					Changes from the original game include different ammo types, aiming with the mouse, and 
+					accuracy tracking.
+				</p>
+			</div>
+		</section>
+		<section>
+			<div class="content">
+				<div class="row">
+					<div class="col-6">
+						<img src="media/asteroids2.png" alt="Asteroids">
+					</div>
+					<div class="col-6">
+						<img src="media/asteroids3.png" alt="Asteroids">
+					</div>
+				</div>
+			</div>
+		</section>
+	</main>
+</body>
+</html>
